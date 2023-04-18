@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/%7Brios-portfolio%7D/static/css/main.5b3ac05c.css",
+    "main.js": "/%7Brios-portfolio%7D/static/js/main.952e91e9.js",
+    "static/js/787.3fd15a6c.chunk.js": "/%7Brios-portfolio%7D/static/js/787.3fd15a6c.chunk.js",
+    "static/media/calculator.png": "/%7Brios-portfolio%7D/static/media/calculator.ac0ee39a0415593299da.png",
+    "index.html": "/%7Brios-portfolio%7D/index.html",
+    "main.5b3ac05c.css.map": "/%7Brios-portfolio%7D/static/css/main.5b3ac05c.css.map",
+    "main.952e91e9.js.map": "/%7Brios-portfolio%7D/static/js/main.952e91e9.js.map",
+    "787.3fd15a6c.chunk.js.map": "/%7Brios-portfolio%7D/static/js/787.3fd15a6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b3ac05c.css",
+    "static/js/main.952e91e9.js"
+  ]
+}
