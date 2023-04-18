@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/rios-portfolio/static/css/main.5b3ac05c.css",
-    "main.js": "/rios-portfolio/static/js/main.66613b5d.js",
+    "main.css": "/rios-portfolio/static/css/main.99345230.css",
+    "main.js": "/rios-portfolio/static/js/main.799c367a.js",
     "static/js/787.3fd15a6c.chunk.js": "/rios-portfolio/static/js/787.3fd15a6c.chunk.js",
     "static/media/calculator.png": "/rios-portfolio/static/media/calculator.ac0ee39a0415593299da.png",
     "index.html": "/rios-portfolio/index.html",
-    "main.5b3ac05c.css.map": "/rios-portfolio/static/css/main.5b3ac05c.css.map",
-    "main.66613b5d.js.map": "/rios-portfolio/static/js/main.66613b5d.js.map",
+    "main.99345230.css.map": "/rios-portfolio/static/css/main.99345230.css.map",
+    "main.799c367a.js.map": "/rios-portfolio/static/js/main.799c367a.js.map",
     "787.3fd15a6c.chunk.js.map": "/rios-portfolio/static/js/787.3fd15a6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b3ac05c.css",
-    "static/js/main.66613b5d.js"
+    "static/css/main.99345230.css",
+    "static/js/main.799c367a.js"
   ]
 }
