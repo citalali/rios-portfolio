@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/rios-portfolio/static/css/main.25c3d215.css",
-    "main.js": "/rios-portfolio/static/js/main.115eabbc.js",
+    "main.css": "/rios-portfolio/static/css/main.a453baec.css",
+    "main.js": "/rios-portfolio/static/js/main.67ae47b0.js",
     "static/js/787.3fd15a6c.chunk.js": "/rios-portfolio/static/js/787.3fd15a6c.chunk.js",
     "static/media/dashboard.png": "/rios-portfolio/static/media/dashboard.f998a4694300b4f69bc3.png",
     "static/media/calculator.png": "/rios-portfolio/static/media/calculator.ac0ee39a0415593299da.png",
     "static/media/sunrise.png": "/rios-portfolio/static/media/sunrise.4e80edd98a3b4f329f4e.png",
     "index.html": "/rios-portfolio/index.html",
-    "main.25c3d215.css.map": "/rios-portfolio/static/css/main.25c3d215.css.map",
-    "main.115eabbc.js.map": "/rios-portfolio/static/js/main.115eabbc.js.map",
+    "main.a453baec.css.map": "/rios-portfolio/static/css/main.a453baec.css.map",
+    "main.67ae47b0.js.map": "/rios-portfolio/static/js/main.67ae47b0.js.map",
     "787.3fd15a6c.chunk.js.map": "/rios-portfolio/static/js/787.3fd15a6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25c3d215.css",
-    "static/js/main.115eabbc.js"
+    "static/css/main.a453baec.css",
+    "static/js/main.67ae47b0.js"
   ]
 }
