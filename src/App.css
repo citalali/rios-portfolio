@@ -1,3 +1,43 @@
+/* styles for devices with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+  .ProjectList {
+    padding-top: 5%;
+    display: grid;
+    grid-template-rows: 30% 30% 30% 30%;
+    grid-auto-flow: column;
+    padding-bottom: 3%;
+  }
+  .App {
+    padding-bottom: 80%;
+  }
+}
+
+/* styles for devices with a minimum width of 601px and a maximum width of 1200px */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .ProjectList {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 55% 55%;
+    grid-auto-flow: row;
+    padding-bottom: 3%;
+  }
+  .App {
+    padding-bottom: 10%;
+  }
+}
+
+/* styles for devices with a minimum width of 1201px */
+@media screen and (min-width: 1201px) {
+  .ProjectList {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-flow: row;
+    padding-bottom: 3%;
+  }
+}
+
 :root {
   --background: #9ba4b5;
   --dark: #212a3e;
@@ -60,14 +100,6 @@ h1 {
 }
 .linkListDiv:hover {
   transform: skewY(-3deg);
-}
-
-.ProjectList {
-  padding-top: 5%;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-auto-flow: row;
-  padding-bottom: 3%;
 }
 
 .Project {

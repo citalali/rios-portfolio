@@ -9,7 +9,7 @@ const projects = [
   {
     title: "Dashboard",
     description:
-      "Personal Dashboard, inculdes the Weather, a to-do List feature, a button which makes an api call to randomDog.api(CHANGE).",
+      "My React.js Personal Dashboard website features the weather, a to-do list, and a button that fetches random dog images from an API.",
     image: dashboardImage,
     fileLink: "https://citalali.github.io/rios-dashboard/",
     codeLink: "https://github.com/citalali/rios-dashboard/tree/master",
@@ -17,7 +17,7 @@ const projects = [
   },
   {
     title: "PortfolioWebsite",
-    description: "This Website :))",
+    description: "This React.js Website :)",
     image: portfolioImage,
     fileLink: "https://citalali.github.io/rios-portfolio/",
     codeLink: "https://github.com/citalali/rios-portfolio/tree/master",
@@ -25,12 +25,11 @@ const projects = [
   },
   {
     title: "Queerhavenart.com",
-    description: "website I designed and developed for my art business",
+    description:
+      "A vanilla JS responsive website with a mobile-first approach for my art business, showcasing my artwork and providing an optimal experience across all devices.",
     image: queerhavenArtImage,
-    fileLink: "www.queerhavenart.com",
-    codeLink: "",
-    readMe:
-      "I used different animation techniques, inculding keyframes for the text and the waves.",
+    fileLink: "https://www.queerhavenart.com/",
+    codeLink: "https://github.com/citalali/Queerhavenart.com",
   },
   {
     title: "Calculator",
@@ -38,7 +37,6 @@ const projects = [
     image: calculatorImage,
     fileLink: "https://citalali.github.io/calculator/",
     codeLink: "https://github.com/citalali/calculator/",
-    readMe: "noch nichts",
   },
 ];
 
