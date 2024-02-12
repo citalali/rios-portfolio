@@ -1,4 +1,5 @@
-#Frontend Developer Portfolio
+Frontend Developer Portfolio
+
 https://citalali.github.io/rios-portfolio/
 
 Hi, I'm Rio! This is my portfolio featuring some of my previous projects, showing my frontend development skills. In this portfolio, you can find my resume, my GitHub account, and my email. Feel free to reach out to me!
