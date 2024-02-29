@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/rios-portfolio/static/css/main.c9d1851f.css",
-    "main.js": "/rios-portfolio/static/js/main.50b087d1.js",
+    "main.css": "/rios-portfolio/static/css/main.5fcf0924.css",
+    "main.js": "/rios-portfolio/static/js/main.d4b0ff25.js",
     "static/js/787.3fd15a6c.chunk.js": "/rios-portfolio/static/js/787.3fd15a6c.chunk.js",
+    "static/media/greenshift.png": "/rios-portfolio/static/media/greenshift.0116d0521c8e6865b9af.png",
     "static/media/queerhavenArtImage.png": "/rios-portfolio/static/media/queerhavenArtImage.9b16c513a761dc446090.png",
-    "static/media/portfolioImage.png": "/rios-portfolio/static/media/portfolioImage.2bbc4bdb3d40be0d7883.png",
     "static/media/calculatorImage.png": "/rios-portfolio/static/media/calculatorImage.f115573396fe1727e3aa.png",
     "static/media/dashboardImg.png": "/rios-portfolio/static/media/dashboardImg.e8a5757a85bfcda7b71a.png",
-    "static/media/RioPajakCV.pdf": "/rios-portfolio/static/media/RioPajakCV.77c3008f0884ac1ce724.pdf",
+    "static/media/RioPajakCV2024.pdf": "/rios-portfolio/static/media/RioPajakCV2024.fcef1f134650859db3a0.pdf",
     "index.html": "/rios-portfolio/index.html",
-    "main.c9d1851f.css.map": "/rios-portfolio/static/css/main.c9d1851f.css.map",
-    "main.50b087d1.js.map": "/rios-portfolio/static/js/main.50b087d1.js.map",
+    "main.5fcf0924.css.map": "/rios-portfolio/static/css/main.5fcf0924.css.map",
+    "main.d4b0ff25.js.map": "/rios-portfolio/static/js/main.d4b0ff25.js.map",
     "787.3fd15a6c.chunk.js.map": "/rios-portfolio/static/js/787.3fd15a6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9d1851f.css",
-    "static/js/main.50b087d1.js"
+    "static/css/main.5fcf0924.css",
+    "static/js/main.d4b0ff25.js"
   ]
 }
