@@ -8,22 +8,32 @@ function App() {
       <div className="headerALink">
         <h1>Rio Pajak</h1>
       </div>
-      <p>Hey! I'm Rio, a frontend developer.</p>
-      <h2 className="titles">About</h2>
+      <p>
+        Hey! I'm Rio, a full-stack developer.
+        <br></br>I am passionate about web development, design thinking, baking
+        bread and solving problems.
+        <br></br>
+        Here you can find some of my projects, my CV and contact information.
+      </p>
       <div className="App linkListDiv">
         <div className="linkList">
-          <a href="https://github.com/citalali" className="link">
-            GitHub
-          </a>
-          <a href={rioCV} className="link" download="RioPajakCV.pdf">
-            Resume
-          </a>
-          <a href="mailto: rio.redips@gmail.com" className="link">
-            Send Email
-          </a>
+          <div className="links">
+            <a href="https://github.com/citalali" className="link">
+              GitHub
+            </a>
+          </div>
+          <div className="links">
+            <a href={rioCV} className="link" download="RioPajakCV.pdf">
+              Resume
+            </a>
+          </div>
+          <div className="links">
+            <a href="mailto: rio.redips@gmail.com" className="link">
+              Send Email
+            </a>
+          </div>
         </div>
       </div>
-      <h2 className="titles">Projects</h2>
       <div className="App">
         <ProjectList />
       </div>

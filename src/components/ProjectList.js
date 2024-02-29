@@ -3,9 +3,18 @@ import Project from "./Project";
 import calculatorImage from "./calculatorImage.png";
 import queerhavenArtImage from "./queerhavenArtImage.png";
 import dashboardImage from "./dashboardImg.png";
-import portfolioImage from "./portfolioImage.png";
+import greenshiftImage from "./greenshift.png";
 
 const projects = [
+  {
+    title: "Greenshift",
+    description:
+      "A React.js app that helps users find sustainable alternatives to everyday products.",
+    image: greenshiftImage,
+    fileLink: "https://greenshiftmap.com",
+    codeLink: "https://github.com/citalali/green-shift",
+    readMe: "",
+  },
   {
     title: "Dashboard",
     description:
@@ -13,14 +22,6 @@ const projects = [
     image: dashboardImage,
     fileLink: "https://citalali.github.io/rios-dashboard/",
     codeLink: "https://github.com/citalali/rios-dashboard/tree/master",
-    readMe: "",
-  },
-  {
-    title: "PortfolioWebsite",
-    description: "This React.js Website :)",
-    image: portfolioImage,
-    fileLink: "https://citalali.github.io/rios-portfolio/",
-    codeLink: "https://github.com/citalali/rios-portfolio/tree/master",
     readMe: "",
   },
   {

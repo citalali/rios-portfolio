@@ -1,52 +1,12 @@
-/* styles for devices with a maximum width of 600px */
-@media screen and (max-width: 600px) {
-  .ProjectList {
-    padding-top: 5%;
-    display: grid;
-    grid-template-rows: 30% 30% 30% 30%;
-    grid-auto-flow: column;
-    padding-bottom: 3%;
-  }
-  .App {
-    padding-bottom: 80%;
-  }
-}
-
-/* styles for devices with a minimum width of 601px and a maximum width of 1200px */
-@media screen and (min-width: 601px) and (max-width: 1200px) {
-  .ProjectList {
-    padding-top: 5%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 55% 55%;
-    grid-auto-flow: row;
-    padding-bottom: 3%;
-  }
-  .App {
-    padding-bottom: 10%;
-  }
-}
-
-/* styles for devices with a minimum width of 1201px */
-@media screen and (min-width: 1201px) {
-  .ProjectList {
-    padding-top: 5%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-auto-flow: row;
-    padding-bottom: 3%;
-  }
-}
-
 :root {
-  --background: #9ba4b5;
-  --dark: #212a3e;
-  --middle: #394867;
-  --light: #f1f6f9;
-  --qbackground: #f1f1f1;
-  --qdark: black;
-  --qmiddle: #0f3d3e;
-  --qlight: #e2dcc8;
+  --qbackground: #9ba4b5;
+  --qdark: #212a3e;
+  --qmiddle: #394867;
+  --qlight: #f1f6f9;
+  --background: #f1f1f1;
+  --dark: black;
+  --middle: #0f3d3e;
+  --light: #e2dcc8;
 }
 html {
   background-color: var(--middle);
@@ -66,12 +26,11 @@ h1 {
 }
 
 .link {
-  color: var(--light);
-  background-color: var(--middle);
+  color: var(--middle);
+  background-color: var(--light);
   padding: 5px;
-  font-size: 25px;
   margin: 10px;
-  border: 2px solid var(--dark);
+  border: 2px solid var(--light);
   border-radius: 5px;
   text-decoration: none;
 }
@@ -79,11 +38,15 @@ h1 {
   padding: 15px;
 }
 .link:hover {
-  color: var(--middle);
-  background-color: var(--light);
+  color: var(--light);
+  background-color: var(--middle);
+  border: 2px solid var(--dark);
 }
+
 .linkList {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .titles {
@@ -93,12 +56,12 @@ h1 {
   font-weight: 800;
   margin-bottom: -30px;
 }
+
 .App {
-  background-color: var(--light);
-  margin-top: 5%;
-  border: 2px solid black;
+  margin-top: 3%;
+  padding-bottom: 0%;
 }
-.linkListDiv:hover {
+.links:hover {
   transform: skewY(-3deg);
 }
 
@@ -113,16 +76,13 @@ h1 {
 .Text {
   color: var(--background);
   margin: 1%;
+  padding-left: 0%;
 }
 
 .Img {
   width: 85%;
   border: 5px solid var(--middle);
   border-radius: 10px;
-}
-
-.Img:hover {
-  width: 95%;
 }
 
 .Project:hover {
@@ -143,4 +103,51 @@ h1 {
 .Button:hover {
   color: var(--middle);
   background-color: var(--background);
+}
+
+/* styles for devices with a maximum width of 600px */
+@media screen and (max-width: 600px) {
+  .ProjectList {
+    padding-top: 2%;
+    display: grid;
+    grid-template-rows: 30% 30% 30% 30%;
+    grid-auto-flow: column;
+    padding-bottom: 3%;
+  }
+  .App {
+    padding-bottom: 0%;
+    padding-top: 10%;
+  }
+  .link {
+    font-size: 15px;
+  }
+}
+
+/* styles for devices with a minimum width of 601px and a maximum width of 1200px */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .ProjectList {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 55% 55%;
+    grid-auto-flow: row;
+    padding-bottom: 3%;
+  }
+  .link {
+    font-size: 25px;
+  }
+}
+
+/* styles for devices with a minimum width of 1201px */
+@media screen and (min-width: 1201px) {
+  .ProjectList {
+    padding-top: 1%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-flow: row;
+    padding-bottom: 3%;
+  }
+  .link {
+    font-size: 30px;
+  }
 }
