@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import calculatorImage from "./calculatorImage.png";
-import queerhavenArtImage from "./queerhavenArtImage.png";
+import queerhavenArtImage from "./Queerhavenshop.png";
 import dashboardImage from "./dashboardImg.png";
 import greenshiftImage from "./greenshift.png";
 
@@ -16,6 +16,14 @@ const projects = [
     readMe: "",
   },
   {
+    title: "Queerhavenart.com",
+    description:
+      "A Webshop with a Next.js & Tailwind CSS Frontend and a Node.js && PostgreSQL based backend. Completely self hosted on a Ubuntu Cloud Server",
+    image: queerhavenArtImage,
+    fileLink: "https://www.queerhavenart.com/",
+    codeLink: "https://github.com/citalali/queerhavenart-medusa",
+  },
+  {
     title: "Dashboard",
     description:
       "My React.js Personal Dashboard website features the weather, a to-do list, and a button that fetches random dog images from an API.",
@@ -23,14 +31,6 @@ const projects = [
     fileLink: "https://citalali.github.io/rios-dashboard/",
     codeLink: "https://github.com/citalali/rios-dashboard/tree/master",
     readMe: "",
-  },
-  {
-    title: "Queerhavenart.com",
-    description:
-      "A vanilla JS responsive website with a mobile-first approach for my art business, showcasing my artwork and providing an optimal experience across all devices.",
-    image: queerhavenArtImage,
-    fileLink: "https://www.queerhavenart.com/",
-    codeLink: "https://github.com/citalali/Queerhavenart.com",
   },
   {
     title: "Calculator",
