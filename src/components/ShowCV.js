@@ -4,7 +4,7 @@ import { Document } from "react-pdf";
 const ShowCV = () => {
   return (
     <div>
-      <Document file="./RioPajakCV.pdf"></Document>
+      <Document file="./R.Pajak-CV-2024.pdf"></Document>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import "./App.css";
 import ProjectList from "./components/ProjectList";
-import rioCV from "./components/RioPajakCV2024.pdf";
+import rioCV from "./components/R.Pajak-CV-2024.pdf";
 
 function App() {
   return (
